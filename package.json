@@ -1,0 +1,19 @@
+{
+  "name": "block-building-puzzle",
+  "version": "1.0.0",
+  "description": "generate all the possible versions of a block building puzzles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua McKinney",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meeple142/block-building-puzzle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meeple142/block-building-puzzle/issues"
+  },
+  "homepage": "https://github.com/meeple142/block-building-puzzle#readme"
+}
