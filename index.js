@@ -43,13 +43,13 @@ function byFirstNumb(a,b){
 }
 powerFilter = power.filter(toUnique);
 //add before the map a reduce that adds all the options for different board lengths less then the board.
+//padd out to all possilbe board lengths <= boardLength
 var allPossible = powerFilter.map((row) => {
     
-    //padd out to board length
-    // // handle empty set
-    // if (row.length === 0) {
-    //     return [row];
-    // }
+    // handle empty set
+    if (row.length === 0) {
+        return [row];
+    }
 
     return combs.permutation(row).toArray();
 })
@@ -61,6 +61,7 @@ var allPossible = powerFilter.map((row) => {
 // console.log(power);
 // console.log(powerFilter);
 console.log(allPossible);
+console.log(allPossible.length);
 
 // allPossible.forEach((row)=>{
 //     console.log(row)
