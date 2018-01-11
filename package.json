@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/meeple142/block-building-puzzle/issues"
   },
-  "homepage": "https://github.com/meeple142/block-building-puzzle#readme"
+  "homepage": "https://github.com/meeple142/block-building-puzzle#readme",
+  "dependencies": {
+    "js-combinatorics": "^0.5.3"
+  }
 }
